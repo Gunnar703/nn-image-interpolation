@@ -3,7 +3,7 @@ Interpolating images with Sinusoidal Representation Networks. Simple example scr
 
 ## How it Works
 Neural Networks approximate functions. In this case, I made a network that takes the 2-tuple $(i,j)$, specifying the location of a pixel on an image, as an input and outputs the triplet $(R,G,B)$ describing the color of that pixel. The network is trained on randomly-sampled pixels from an image. After training, the network is queried for all the other points, resulting in a fairly accurate reproduction of the original image from sparsely sampled pixels.
-<img src="Test_Results.png" />
+![image](Test_Results.png)
 
 ## References
 ```bibtex
